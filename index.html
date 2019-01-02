@@ -374,7 +374,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  4
+                  227
                 </span>
               
 
@@ -413,7 +413,15 @@
       
         
           
-            <p>1.使用<code>npm</code></p>
+            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a><strong>前言</strong></h2><p>&ensp;&ensp;&ensp;&ensp;在使用<code>Hexo+GitHub</code>搭载静态博客的过程中,会遇到很多不同的问题及错误，此文章将作为各种问题及解决方式的汇总，并将后续跟进更新。</p>
+<hr>
+<h2 id="1-使用npm来安装插件时无响应或速度慢"><a href="#1-使用npm来安装插件时无响应或速度慢" class="headerlink" title="1.使用npm来安装插件时无响应或速度慢"></a><strong>1.使用<code>npm</code>来安装插件时无响应或速度慢</strong><br></h2><p>&ensp;&ensp;&ensp;&ensp;在第一次使用<code>npm</code>来安装Hexo时等待很长时间却没有反应，经过查询后得知，<code>npm</code>是从国外资源网站上下载资源，故在国内直接使用会非常慢。遇到这种情况时，我们可以使用<font color="#8A2BE2">淘宝镜像npm</font>(这是一个完整 <code>npmjs.org</code> 镜像，你可以用此代替官方版本(只读))。</p>
+<p>在命令行中输入 npm config set registry <a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p>
+<figure class="highlight gams"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="keyword">set</span> registry <span class="comment">https:</span>//<span class="comment">registry.npm.taobao.org</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>配置后可通过下面方式来验证是否成功</li>
+</ul>
+<p><code>npm config get registry</code> 或 <code>npm info express</code></p>
 
           
         
@@ -914,7 +922,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">94</span>
+    <span title="Site words total count">317</span>
   
 </div>
 

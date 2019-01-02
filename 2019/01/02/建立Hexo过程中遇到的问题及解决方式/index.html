@@ -90,13 +90,15 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="建立Hexo过程中遇到的问题及解决方式">
 <meta property="og:url" content="https://FakeKotaro.github.io/2019/01/02/建立Hexo过程中遇到的问题及解决方式/index.html">
-<meta property="og:site_name" content="FakeKotaro">
+<meta property="og:site_name" content="FakeKotaro&#39;s Blog">
 <meta property="og:description" content="前言&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;在使用Hexo+GitHub搭载静态博客的过程中,会遇到很多不同的问题及错误，此文章将作为各种问题及解决方式的汇总，并将后续跟进更新。  1.使用npm来安装插件时无响应或速度慢&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;在第一次使用npm来安装Hexo时等待很长时间却没有反应，经过查询后得知，npm是从国外资源网站上下载资源，故在国内直接使">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-02T08:15:51.397Z">
+<meta property="og:image" content="https://fakekotaro.github.io/image/error.jpg">
+<meta property="og:updated_time" content="2019-01-02T08:35:41.127Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="建立Hexo过程中遇到的问题及解决方式">
 <meta name="twitter:description" content="前言&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;在使用Hexo+GitHub搭载静态博客的过程中,会遇到很多不同的问题及错误，此文章将作为各种问题及解决方式的汇总，并将后续跟进更新。  1.使用npm来安装插件时无响应或速度慢&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;在第一次使用npm来安装Hexo时等待很长时间却没有反应，经过查询后得知，npm是从国外资源网站上下载资源，故在国内直接使">
+<meta name="twitter:image" content="https://fakekotaro.github.io/image/error.jpg">
 
 
 
@@ -132,7 +134,7 @@
 
 
 
-  <title>建立Hexo过程中遇到的问题及解决方式 | FakeKotaro</title>
+  <title>建立Hexo过程中遇到的问题及解决方式 | FakeKotaro's Blog</title>
   
 
 
@@ -163,7 +165,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="">FakeKotaro</span>
+        <span class="">FakeKotaro's Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -309,7 +311,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="FakeKotaro">
+      <meta itemprop="name" content="FakeKotaro's Blog">
     </span>
 
     
@@ -372,7 +374,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  227
+                  318
                 </span>
               
 
@@ -417,7 +419,11 @@
 <ul>
 <li>配置后可通过下面方式来验证是否成功</li>
 </ul>
-<p><code>npm config get registry</code> 或 <code>npm info express</code></p>
+<p><code>npm config get registry</code> 或 <code>npm info express</code> <br><br></p>
+<h2 id="2-配置文件语法问题"><a href="#2-配置文件语法问题" class="headerlink" title="2.配置文件语法问题"></a><strong>2.配置文件语法问题</strong></h2><p>&ensp;&ensp;&ensp;&ensp;在hexo部署（hexo d -g）及联网（hexo s）的过程中，若出现如下图语法报错<br><img src="/image/error.jpg" alt=""></p>
+<ul>
+<li>则需注意：配置文件.yml <font color="#8A2BE2">对语法要求极为严格</font>，每个冒号后面必须有一个空格且无法使用中文符号，否则连本地测试都无法通过。</li>
+</ul>
 
       
     </div>
@@ -597,7 +603,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-使用npm来安装插件时无响应或速度慢"><span class="nav-number">2.</span> <span class="nav-text">1.使用npm来安装插件时无响应或速度慢</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-使用npm来安装插件时无响应或速度慢"><span class="nav-number">2.</span> <span class="nav-text">1.使用npm来安装插件时无响应或速度慢</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-配置文件语法问题"><span class="nav-number">3.</span> <span class="nav-text">2.配置文件语法问题</span></a></li></ol></div>
             
 
           </div>
@@ -631,7 +637,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">317</span>
+    <span title="Site words total count">408</span>
   
 </div>
 
